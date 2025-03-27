@@ -12,7 +12,7 @@ Sticky Notes is a lightweight, responsive web application that allows you to cre
 All notes are saved locally in your browser, so they persist between sessions. This makes it perfect for quick to-do lists, reminders, or jotting down ideas.
 
 <div align="center">
-  <img src="./Assets/screenshot.jpg" alt="Sticky Notes Screenshot" width="800">
+  <img src="./Assets/image.png" alt="Sticky Notes Screenshot" width="800">
 </div>
 
 ## ✨ Features
