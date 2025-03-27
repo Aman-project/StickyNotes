@@ -29,7 +29,7 @@ All notes are saved locally in your browser, so they persist between sessions. T
 
 ## 🚀 Live Demo
 
-Try the live demo: [Sticky Notes App](https://your-demo-url.com)
+Try the live demo: [Sticky Notes App](https://stickynotesbyaman.netlify.app/)
 
 ## 🛠️ Installation
 
