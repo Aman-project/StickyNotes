@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="theme-color" content="#222438" />
+    <meta name="description" content="A responsive notes web application" />
+    <title>Notes App</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="./Assets/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./Assets/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="./Assets/favicon-16x16.png" />
+    <link rel="manifest" href="./Assets/site.webmanifest" />
+  </head>
+  <body>
+    <main>
+      <form>
+        <input type="color" id="color" value="#e6b905" />
+        <button type="button" id="createBtn" aria-label="Create new note">+</button>
+        <button type="button" id="clearBtn" aria-label="Clear all notes" title="Clear all notes">🗑️</button>
+      </form>
+
+      <div id="list"></div>
+      
+      <div class="popup-overlay" id="confirmationPopup">
+        <div class="popup-container">
+          <div class="popup-header">
+            <h3>Confirm Delete</h3>
+            <button class="popup-close" aria-label="Close">&times;</button>
+          </div>
+          <div class="popup-content">
+            <p id="popupMessage">Are you sure you want to delete all notes?</p>
+          </div>
+          <div class="popup-actions">
+            <button class="popup-btn popup-cancel">Cancel</button>
+            <button class="popup-btn popup-confirm">Delete</button>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>
